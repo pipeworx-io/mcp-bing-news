@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-bing-news",
+  "version": "0.1.0",
+  "description": "Bing News MCP — keyword news search via Bing News RSS, keyless.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-bing-news": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bing-news"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-bing-news.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-132125f89998d9841b5d50b2bbe52fa92c897c48eccebe9eae3f2e77c3bd1122",
+    "sourceCommit": "3d8d9f09e39ebb175a9e41fffd8601eeddcf10a4"
+  }
+}
