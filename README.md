@@ -5,7 +5,7 @@ Keyword news search via Bing News RSS — a third, independent news source
 GDELT/`gdelt`), returning recent matching articles ranked by Bing with the
 real article link, publish time, source publication and a short description.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1851+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1875+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -100,7 +100,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1851+ data sources. The
+Both URLs reach the same gateway and the same 1875+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
