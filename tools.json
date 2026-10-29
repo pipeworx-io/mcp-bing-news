@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bing_news_search",
+    "description": "Keyword news search via Bing News RSS, keyless. Returns recent matching articles with title, the real article link (decoded from Bing's tracking redirect, not the redirect itself), publish time, source publication and a short description. Independent of Google News (country_news pack) and GDELT (gdelt pack) — a different vendor on different infrastructure, useful as a corroborating source or when either of those is down.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search keywords, e.g. \"Series A funding\""
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max items to return (1-50, default 20)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
