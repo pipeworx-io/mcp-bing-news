@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bing-news",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Bing News MCP — keyword news search via Bing News RSS, keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bing-news",
     "gatewaySlug": "bing-news",
-    "sourceHash": "v1-45d7d1e6cbc41f7f761a8764a14b3ce9c023c7971ab3640528cdf4c6e419c009",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-248b82de134ecd90f4e38d51b18d5f5b4a96a0871e41734272d002367cea1dc5",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
